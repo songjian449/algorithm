@@ -8,7 +8,7 @@ import linkedList.ListNode;
  * @link {https://leetcode-cn.com/problems/reverse-linked-list/}
  */
 public class ReverseList {
-    public ListNode reverseList(ListNode head) {
+    public static ListNode reverseList(ListNode head) {
         // null->1->2->3->4->5
         ListNode pre = null;
         ListNode cur = head;
